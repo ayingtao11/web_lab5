@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "me",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayingtao11/web_lab5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayingtao11/web_lab5/issues"
+  },
+  "homepage": "https://github.com/ayingtao11/web_lab5#readme"
 }
