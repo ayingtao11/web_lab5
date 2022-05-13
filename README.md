@@ -28,6 +28,7 @@ after update, I give up using:
   res.redirect("/");
 });`
 in server.js, and
+`
  <form action="../../post" method="post" 
               className="form">
           <button type="submit">Connected?</button>
