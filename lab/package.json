@@ -1,7 +1,8 @@
 {
-  "name": "lab5_app",
+  "name": "lab",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -35,9 +36,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "server.js",
+  "main": "App.js",
   "devDependencies": {},
   "author": "",
   "license": "ISC"

@@ -34,11 +34,6 @@ app.get("/", (req, res, next) => {
         })
     });
 });
-// connecting the React
-app.post("/post", (req, res) => {
-    console.log("Connected to React");
-    res.redirect("/");
-});
 
 //API endpoints for table car_owners
 //get all of the rows and fields from particular table from database.
