@@ -12,3 +12,12 @@ I could not find a way to fix it after hours of searching
 The last attempt I was working on is in file `lab` as react.js
 
 Working in Ubuntu made me harder to search for solution.
+
+Accordint to https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/
+, I also tried:
+`"scripts": {
+    "client": "cd lab && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },`
+  and commmand `yarn dev`, but it still did not work.
