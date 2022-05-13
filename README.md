@@ -23,10 +23,12 @@ Accordint to https://www.freecodecamp.org/news/how-to-make-create-react-app-work
   and commmand `yarn dev`, but it still did not work.
 
 after update, I give up using:
-`app.post("/post", (req, res) => {
+```
+app.post("/post", (req, res) => {
   console.log("Connected to React");
   res.redirect("/");
-});`
+});
+```
 in server.js, and
 ```
  <form action="../../post" method="post" 
@@ -36,7 +38,7 @@ in server.js, and
 ```
 in app.js. 
 But using:
-`
+```
 componentDidMount() {
     this.callApi()
       .then(res => this.setState({ response: res.express }))
@@ -98,6 +100,6 @@ render() {
       </div>
     );
   }
-`
+```
 , but it only gave me error message about didn't insert car information correctly when I try to insert car information.
 {"error":"No Car_ID specified,No Judge_ID specified,No Judge_Name specified"}
