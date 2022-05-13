@@ -59,7 +59,7 @@ render() {
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
-            <strong>Post to Server:</strong>
+            <strong>Insert to car judges table:</strong>
           </p>
           <input
             type="text"
