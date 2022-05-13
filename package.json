@@ -1,12 +1,12 @@
 {
   "name": "web_lab5",
   "version": "1.0.0",
-  "description": "\"lab5\"",
+  "description": "lab5",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\\\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "client": "cd lab && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/ayingtao11/web_lab5#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.1.0",
     "md5": "^2.3.0",
     "sqlite3": "^5.0.8"
   }
