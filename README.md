@@ -10,3 +10,5 @@ or
 I could not find a way to fix it after hours of searching
 
 The last attempt I was working on is in file `lab` as react.js
+
+Working in Ubuntu made me harder to search for solution.
